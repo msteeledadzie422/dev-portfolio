@@ -1,16 +1,16 @@
 {
     "basic_info": {
       "name": "Mandela Steele-Dadzie",
-      "titles": [ "Software Developer" ],
+      "titles": [ "Software Developer, Always Learning" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/msteeledadzie422",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/mandelasteeledadzie/",
           "class": "fab fa-instagram"
         }
       ],
@@ -29,39 +29,9 @@
           "level": "95"
         },
         {
-          "name": "Angular",
+          "name": "Javascript ES6",
           "class": "devicon-angularjs-plain",
           "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
-          "level": "70"
-        },
-        {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
-        },
-        {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
-        },
-        {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
-        },
-        {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
         }
       ]
     }
