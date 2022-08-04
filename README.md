@@ -28,3 +28,15 @@ Finish time: 4:30pm MT
 
 Actual time needed to complete: 1.5 hours
 
+----------------------------------------------------
+
+Number and name of feature: Created a new branch and updated README
+
+Estimate of time needed to complete: 5 minutes
+
+Start time: 4:40pm MT
+
+Finish time: 4:45pm MT
+
+Actual time needed to complete: 5 minutes
+
