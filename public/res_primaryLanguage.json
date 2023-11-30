@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hello!",
-      "description": "👋 I'm Mandela Steele-Dadzie :) I have just begun my coding journey and am looking forward to completing the CodeFellows Software Development program",
+      "description": "👋 I'm Mandela Steele-Dadzie :) As an accomplished manager with a strong track record in strategy development and cross-functional collaboration, I've recently transitioned my skill set to include proficiency in Python and JavaScript through a coding bootcamp. I am now seeking opportunities in the field of analytics and data engineering, where I aim to leverage my analytical skills and technical expertise to drive data-driven insights and operational excellence.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,66 +11,78 @@
     },
     "projects": [
       {
-        "title": "[Hold] Code Fellows Casino",
-        "startDate": "2022",
-        "description": "Blackjack and Roulette",
+        "title": "Wikipedia Stadiums List Data Project",
+        "startDate": "2023",
+        "description": "List of global stadiums pulled from Wikipedia. Data pipeline created using Apache Airflow and Azure Data Lakes",
         "images": [
-          "images/portfolio/codefellows-casino/blackjack.jpg",
-          "images/portfolio/codefellows-casino/roulette.jpg"
+          "images/portfolio/wikipedia_stadiums/wikipedia_airflow_graph.png",
+          "images/portfolio/wikipedia_stadiums/wikipedia_azure_synapse.png",
+          "images/portfolio/wikipedia_stadiums/wikipedia_tableau_1.png",
+          "images/portfolio/wikipedia_stadiums/wikipedia_tableau_2.png"
         ],
-        "url": "",
+        "url": "https://github.com/msteeledadzie422/wikipedia_soccer_stadium_data_project",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-apache-plain",
+            "name": "Apache Airflow"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-azure-plain",
+            "name": "Microsoft Azure"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-pandas-plain",
+            "name": "Pandas"
           }
         ]
       },
       {
-        "title": "Zombie Survivor",
-        "startDate": "2022",
-        "description": "Code Fellows 201 Final Project. A top-down Zombie Survivor slasher game",
+        "title": "UK Retail Data Pipeline Project",
+        "startDate": "2023",
+        "description": "End-to-end Apache Airflow data pipeline set up using Astro CLI",
         "images": [
-          "images/portfolio/zombie-survivor/flames.jpg",
-          "images/portfolio/zombie-survivor/gameplay.jpg"
+          "images/portfolio/uk_retail_pipeline/airflow_img_1.png",
+          "images/portfolio/uk_retail_pipeline/airflow_img_2.png",
+          "images/portfolio/uk_retail_pipeline/airflow_img_3.png",
+          "images/portfolio/uk_retail_pipeline/bigquery_tables.png",
+          "images/portfolio/uk_retail_pipeline/gcs_bucket.png",
+          "images/portfolio/uk_retail_pipeline/metadata_visualization.png"
         ],
-        "url": "https://msteeledadzie422.github.io/startpage2/",
+        "url": "https://github.com/msteeledadzie422/airflow_retail_data",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-apache-plain",
+            "name": "Apache Airflow"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-googlecloud-plain",
+            "name": "Google Cloud Services"
           }
         ]
       },
       {
-        "title": "Salmon Cookies",
-        "startDate": "2022",
-        "description": "Code Fellows 201 Project. A bakiery's expected sales based on forecasts",
+        "title": "Zillow Rapid API Data Pipeline Project",
+        "startDate": "2023",
+        "description": "End-to-end data pipeline hosted on an AWS EC2 Instance that uses Airflow DAGS to pull proxy Zillow real estate data from Rapid API",
         "images": [
-          "images/portfolio/salmon-cookies/family.jpg",
-          "images/portfolio/salmon-cookies/cookie.jpg"
+          "images/portfolio/zillow_rapidapi/zillow_airflow_img.png",
+          "images/portfolio/zillow_rapidapi/zillow_s3_img.png",
+          "images/portfolio/zillow_rapidapi/zillow_redshift_img.png",
+          "images/portfolio/zillow_rapidapi/zillow_quicksight_img.png"
         ],
-        "url": "https://github.com/msteeledadzie422/cookie-stand.git",
+        "url": "https://github.com/msteeledadzie422/zillow_rapidapi_data_pipeline",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-apache-plain",
+            "name": "Apache Airflow"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-amazonwebservices-original",
+            "name": "Amazon Web Services"
           }
         ]
       }
@@ -78,28 +90,35 @@
     "experience": [
       {
         "company": "DoorDash",
-        "title": "Enterprise Partnerships Manager",
-        "years": "10.2019 - 05.2022",
+        "title": "Enterprise Partnerships",
+        "years": "05.2019 - 05.2022",
         "mainTech": [
           
         ],
         "technologies": [
-          "Slack",
-          "Excel",
-          "Google Slides"
+
+        ]
+      },
+      {
+        "company": "Sentieo, Inc. (an AlphaSense Company)",
+        "title": "Sales Development",
+        "years": "05.2018 - 05.2019",
+        "mainTech": [
+          
+        ],
+        "technologies": [
+
         ]
       },
       {
         "company": "Flexport Inc",
-        "title": "Pricing Associate",
+        "title": "Global Pricing",
         "years": "10.2016 - 05.2018",
         "mainTech": [
         
         ],
         "technologies": [
-          "Slack",
-          "Excel",
-          "Google Slides"
+
         ]
       }
     ]

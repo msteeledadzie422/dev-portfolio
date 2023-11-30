@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import videobg from "./burning-flames.mp4"
+import backgroundImage from "../../public/images/linkedin_background.jpeg";
 
 class Footer extends Component {
   render() {
@@ -17,8 +17,7 @@ class Footer extends Component {
 
     return (
       <footer>
-        <div className="videobg">
-          <video src={videobg} autoplay loop muted />
+        <div className="imagebg" style={{ backgroundImage: `url(${backgroundImage})` }}>
           <div className="container">
             <div className="row">
               <div className="col social-links">{networks}</div>
