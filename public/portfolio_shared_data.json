@@ -20,68 +20,55 @@
       "icons": [
         {
           "name": "Python",
-          "class": "devicon-python-plain",
-          "level": "95"
+          "class": "devicon-python-plain"
         },
         {
           "name": "Javascript",
-          "class": "devicon-javascript-plain",
-          "level": "95"
+          "class": "devicon-javascript-plain"
         },
         {
           "name": "Amazon Web Services",
-          "class": "devicon-amazonwebservices-original",
-          "level": "95"
+          "class": "devicon-amazonwebservices-original"
         },
         {
           "name": "Microsoft Azure",
-          "class": "devicon-azure-plain",
-          "level": "95"
+          "class": "devicon-azure-plain"
         },
         {
           "name": "Apache Airflow",
-          "class": "devicon-apache-plain",
-          "level": "95"
+          "class": "devicon-apache-plain"
         },
         {
           "name": "Apache Kafka",
-          "class": "devicon-apachekafka-original",
-          "level": "95"
+          "class": "devicon-apachekafka-original"
         },
         {
           "name": "Google Cloud Services",
-          "class": "devicon-googlecloud-plain",
-          "level": "95"
+          "class": "devicon-googlecloud-plain"
         },
         {
           "name": "PostgreSQL",
-          "class": "devicon-postgresql-plain",
-          "level": "95"
+          "class": "devicon-postgresql-plain"
         },
         {
           "name": "Pandas",
-          "class": "devicon-pandas-original",
-          "level": "95"
+          "class": "devicon-pandas-original"
         },
         {
           "name": "Jupyter Notebook",
-          "class": "devicon-jupyter-plain",
-          "level": "95"
+          "class": "devicon-jupyter-plain"
         },
         {
           "name": "Docker",
-          "class": "devicon-docker-plain",
-          "level": "95"
+          "class": "devicon-docker-plain"
         },
         {
           "name": "Kaggle Datasets",
-          "class": "devicon-kaggle-original",
-          "level": "95"
+          "class": "devicon-kaggle-original"
         },
         {
           "name": "Numpy",
-          "class": "devicon-numpy-original",
-          "level": "95"
+          "class": "devicon-numpy-original"
         }
       ]
     }

@@ -45,6 +45,7 @@ header {
 	background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
+	color: white;
 }
 
 header .nav {
@@ -183,13 +184,18 @@ header h1 {
 }
 
 .polaroid img {
+	width: 100%;
+	height: auto;
 	display: block;
-	max-width: 200px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .polaroid span {
 	background: #ffffff;
-	display: inline-block;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 	margin: 55px 75px 30px;
 	padding: 15px 15px 30px;
 	text-align: center;
@@ -415,7 +421,7 @@ header h1 {
 
 footer {
 	background: #1F1F1F;
-	min-height: 100px;
+	min-height: 50px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
@@ -438,3 +444,11 @@ footer a:focus {
 	margin-top: 10px;
 	font-size: 22px;
 }
+
+.nav-link-custom {
+	color: white !important;
+	text-decoration: none !important;
+	background: transparent !important;
+	border: none !important;
+	font-weight: bold;
+  }

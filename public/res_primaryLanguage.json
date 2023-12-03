@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hello!",
-      "description": "👋 I'm Mandela Steele-Dadzie :) As an accomplished manager with a strong track record in strategy development and cross-functional collaboration, I've recently transitioned my skill set to include proficiency in Python and JavaScript through a coding bootcamp. I am now seeking opportunities in the field of analytics and data engineering, where I aim to leverage my analytical skills and technical expertise to drive data-driven insights and operational excellence.",
+      "description": "👋 I'm Mandela Steele-Dadzie :) I am an accomplished manager with a strong track record in strategy development and cross-functional collaboration. Recently, I have transitioned my skill set to include proficiency in Python and JavaScript through a coding bootcamp. I am now seeking opportunities in the field(s) of analytics and data engineering, where I aim to leverage my analytical skills and technical expertise to drive data-driven insights and operational excellence. Outside of work I enjoy travelling, spending time with family, and hiking with my dog Dragonfly - a Labrador/Boxer mix with energy to spare!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,7 +11,7 @@
     },
     "projects": [
       {
-        "title": "Wikipedia Stadiums List Data Project",
+        "title": "Wikipedia Stadiums Data",
         "startDate": "2023",
         "description": "List of global stadiums pulled from Wikipedia. Data pipeline created using Apache Airflow and Azure Data Lakes",
         "images": [
@@ -41,15 +41,15 @@
         ]
       },
       {
-        "title": "UK Retail Data Pipeline Project",
+        "title": "UK Retail Data Pipeline",
         "startDate": "2023",
         "description": "End-to-end Apache Airflow data pipeline set up using Astro CLI",
         "images": [
           "images/portfolio/uk_retail_pipeline/airflow_img_1.png",
           "images/portfolio/uk_retail_pipeline/airflow_img_2.png",
           "images/portfolio/uk_retail_pipeline/airflow_img_3.png",
-          "images/portfolio/uk_retail_pipeline/bigquery_tables.png",
           "images/portfolio/uk_retail_pipeline/gcs_bucket.png",
+          "images/portfolio/uk_retail_pipeline/bigquery_tables.png",
           "images/portfolio/uk_retail_pipeline/metadata_visualization.png"
         ],
         "url": "https://github.com/msteeledadzie422/airflow_retail_data",
@@ -65,7 +65,7 @@
         ]
       },
       {
-        "title": "Zillow Rapid API Data Pipeline Project",
+        "title": "Zillow Rapid API Data Pipeline",
         "startDate": "2023",
         "description": "End-to-end data pipeline hosted on an AWS EC2 Instance that uses Airflow DAGS to pull proxy Zillow real estate data from Rapid API",
         "images": [
@@ -85,9 +85,60 @@
             "name": "Amazon Web Services"
           }
         ]
+      },
+      {
+        "title": "2020 Tokyo Olympics Data Pipeline",
+        "startDate": "2023",
+        "description": "This project is an end-to-end data pipeline that pulls 2020 Tokyo Olympics data stored in GitHub into Microsoft Azure via an Azure Data Factory, with ultimate analysis completed in Azure Synapse",
+        "images": [
+          "images/portfolio/azure_tokyo_olympics/tokyo_olympics_data_factory.png",
+          "images/portfolio/azure_tokyo_olympics/tokyo_olympics_data_container.png",
+          "images/portfolio/azure_tokyo_olympics/tokyo_olympics_databricks.png",
+          "images/portfolio/azure_tokyo_olympics/tokyo_olympics_synapse.png"
+        ],
+        "url": "https://github.com/msteeledadzie422/msd-azure-tokyo-olympics-data",
+        "technologies": [
+          {
+            "class": "devicon-azure-plain",
+            "name": "Microsoft Azure"
+          }
+        ]
+      },
+      {
+        "title": "Redfin City Real Estate Data Pipeline",
+        "startDate": "2023",
+        "description": "An ETL data engineering project that uses Apache Airflow, Snowpipe, Snowflake, and AWS Services to extract real estate data from Redfin.",
+        "images": [
+          "images/portfolio/redfin_city_data/redfin_airflow_dags.png",
+          "images/portfolio/redfin_city_data/redfin_s3_bucket_raw.png",
+          "images/portfolio/redfin_city_data/redfin_s3_bucket_transformed.png",
+          "images/portfolio/redfin_city_data/redfin_snowflake.png"
+        ],
+        "url": "https://github.com/msteeledadzie422/redfin_data_pipeline",
+        "technologies": [
+          {
+            "class": "devicon-apache-plain",
+            "name": "Apache Airflow"
+          },
+          {
+            "class": "devicon-amazonwebservices-original",
+            "name": "Amazon Web Services"
+          }
+        ]
       }
     ],
     "experience": [
+      {
+        "company": "Code Fellows",
+        "title": "Software Development Bootcamp",
+        "years": "05.2022 - 05.2023",
+        "mainTech": [
+          
+        ],
+        "technologies": [
+
+        ]
+      },
       {
         "company": "DoorDash",
         "title": "Enterprise Partnerships",

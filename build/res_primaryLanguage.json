@@ -1,7 +1,7 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Mandela Steele-Dadzie :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Code Fellows. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Hello!",
+      "description": "👋 I'm Mandela Steele-Dadzie :) As an accomplished manager with a strong track record in strategy development and cross-functional collaboration, I've recently transitioned my skill set to include proficiency in Python and JavaScript through a coding bootcamp. I am now seeking opportunities in the field of analytics and data engineering, where I aim to leverage my analytical skills and technical expertise to drive data-driven insights and operational excellence.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,114 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Wikipedia Stadiums List Data Project",
+        "startDate": "2023",
+        "description": "List of global stadiums pulled from Wikipedia. Data pipeline created using Apache Airflow and Azure Data Lakes",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/wikipedia_stadiums/wikipedia_airflow_graph.png",
+          "images/portfolio/wikipedia_stadiums/wikipedia_azure_synapse.png",
+          "images/portfolio/wikipedia_stadiums/wikipedia_tableau_1.png",
+          "images/portfolio/wikipedia_stadiums/wikipedia_tableau_2.png"
         ],
-        "url": "",
+        "url": "https://github.com/msteeledadzie422/wikipedia_soccer_stadium_data_project",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-apache-plain",
+            "name": "Apache Airflow"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-azure-plain",
+            "name": "Microsoft Azure"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          },
+          {
+            "class": "devicon-pandas-plain",
+            "name": "Pandas"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "UK Retail Data Pipeline Project",
+        "startDate": "2023",
+        "description": "End-to-end Apache Airflow data pipeline set up using Astro CLI",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/uk_retail_pipeline/airflow_img_1.png",
+          "images/portfolio/uk_retail_pipeline/airflow_img_2.png",
+          "images/portfolio/uk_retail_pipeline/airflow_img_3.png",
+          "images/portfolio/uk_retail_pipeline/bigquery_tables.png",
+          "images/portfolio/uk_retail_pipeline/gcs_bucket.png",
+          "images/portfolio/uk_retail_pipeline/metadata_visualization.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/msteeledadzie422/airflow_retail_data",
         "technologies": [
           {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-apache-plain",
+            "name": "Apache Airflow"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-googlecloud-plain",
+            "name": "Google Cloud Services"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Zillow Rapid API Data Pipeline Project",
+        "startDate": "2023",
+        "description": "End-to-end data pipeline hosted on an AWS EC2 Instance that uses Airflow DAGS to pull proxy Zillow real estate data from Rapid API",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/zillow_rapidapi/zillow_airflow_img.png",
+          "images/portfolio/zillow_rapidapi/zillow_s3_img.png",
+          "images/portfolio/zillow_rapidapi/zillow_redshift_img.png",
+          "images/portfolio/zillow_rapidapi/zillow_quicksight_img.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/msteeledadzie422/zillow_rapidapi_data_pipeline",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-apache-plain",
+            "name": "Apache Airflow"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-amazonwebservices-original",
+            "name": "Amazon Web Services"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "DoorDash",
+        "title": "Enterprise Partnerships",
+        "years": "05.2019 - 05.2022",
         "mainTech": [
-          "Angular 8/9/10"
+          
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Sentieo, Inc. (an AlphaSense Company)",
+        "title": "Sales Development",
+        "years": "05.2018 - 05.2019",
         "mainTech": [
-          "Angular 7/8"
+          
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+
+        ]
+      },
+      {
+        "company": "Flexport Inc",
+        "title": "Global Pricing",
+        "years": "10.2016 - 05.2018",
+        "mainTech": [
+        
+        ],
+        "technologies": [
+
         ]
       }
     ]
