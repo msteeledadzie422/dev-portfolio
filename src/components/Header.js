@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Switch from "@brookr/react-switch";
 import Nav from 'react-bootstrap/Nav'
 import { LinkContainer } from "react-router-bootstrap";
-import headerImage from "../../public/images/ouray_view.jpg";
+import headerImage from "./ouray_view.jpg";
 
 class Header extends Component {
   titles = [];
@@ -37,7 +37,13 @@ class Header extends Component {
     }, (props, prevProp) => true);
 
     return (
-      <header id="home" style={{ height: window.innerHeight - 100, display: 'block' }}>
+      <header id="home" style={{ 
+                          height: window.innerHeight - 100, 
+                          display: 'block',
+                          backgroundImage: `url(${headerImage})`,
+                          backgroundSize: "cover",
+                          backgroundPosition: "center",
+                          backgroundRepeat: "no-repeat", }}>
         <a href="https://github.com/msteeledadzie422" target="_blank" rel="noreferrer" className="github-corner" aria-label="View source on GitHub">
           <svg width="90" height="90" viewBox="0 0 250 250" style={{ fill: '#151513', color: '#fff', position: 'absolute', top: 0, border: 0, left: 0, transform: 'scale(-1, 1)', zIndex: 9999 }} aria-hidden="true">
             <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
@@ -48,12 +54,12 @@ class Header extends Component {
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
           <Nav.Item> 
             <LinkContainer to="/">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link className="nav-link-custom" href="/">Home</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>        
             <LinkContainer to="/about">
-              <Nav.Link eventKey="about">About</Nav.Link>
+              <Nav.Link className="nav-link-custom" eventKey="about">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
@@ -102,17 +108,19 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-            <img
-              src={headerImage} // Use the imported variable here
+            {/* <img
+              src={headerImage}
               alt="Ouray"
-              style={{ width: "100%", height: "auto", maxHeight: "400px" }} // Adjust styles as needed
-            />
+              style={{ height: "auto", maxHeight: "600px", maxwidth: "600px" }}
+            /> */}
               <br/>
-              <h1 className="mb-0">
+              <h1 className="mb-0" style={{ color: 'white' }}>
                 {name}
               </h1>
               <div className="title-container">
+              <h3>
                 <HeaderTitleTypeAnimation />
+              </h3>
               </div>
               
             </div>

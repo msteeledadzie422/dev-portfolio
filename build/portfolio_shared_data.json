@@ -1,67 +1,87 @@
 {
     "basic_info": {
       "name": "Mandela Steele-Dadzie",
-      "titles": [ "Software Developer" ],
+      "titles": [ "Data and Analytics Engineer" ],
       "social": [
         {
           "name": "github",
-          "url": "https://github.com",
+          "url": "https://github.com/msteeledadzie422",
           "class": "fab fa-github"
         },
         {
-          "name": "instagram",
-          "url": "https://www.instagram.com",
-          "class": "fab fa-instagram"
+          "name": "LinkedIn",
+          "url": "https://www.linkedin.com/in/mandelasteeledadzie/",
+          "class": "fab fa-linkedin"
         }
       ],
-      "image": "myProfile.jpg"
+      "image": "msd_senegal_1.jpg"
     },
     "skills": {
       "icons": [
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
+          "name": "Python",
+          "class": "devicon-python-plain",
           "level": "95"
         },
         {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "Angular",
-          "class": "devicon-angularjs-plain",
-          "level": "80"
-        },
-        {
-          "name": "TypeScript",
-          "class": "devicon-typescript-plain",
-          "level": "90"
-        },
-        {
-          "name": "JavaScript",
+          "name": "Javascript",
           "class": "devicon-javascript-plain",
-          "level": "70"
+          "level": "95"
         },
         {
-          "name": "Sass",
-          "class": "devicon-sass-original",
-          "level": "75"
+          "name": "Amazon Web Services",
+          "class": "devicon-amazonwebservices-original",
+          "level": "95"
         },
         {
-          "name": "Bootstrap",
-          "class": "devicon-bootstrap-plain",
-          "level": "85"
+          "name": "Microsoft Azure",
+          "class": "devicon-azure-plain",
+          "level": "95"
         },
         {
-          "name": "C#",
-          "class": "devicon-csharp-plain",
-          "level": "65"
+          "name": "Apache Airflow",
+          "class": "devicon-apache-plain",
+          "level": "95"
         },
         {
-          "name": "MySql",
-          "class": "devicon-mysql-plain",
-          "level": "60"
+          "name": "Apache Kafka",
+          "class": "devicon-apachekafka-original",
+          "level": "95"
+        },
+        {
+          "name": "Google Cloud Services",
+          "class": "devicon-googlecloud-plain",
+          "level": "95"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "95"
+        },
+        {
+          "name": "Pandas",
+          "class": "devicon-pandas-original",
+          "level": "95"
+        },
+        {
+          "name": "Jupyter Notebook",
+          "class": "devicon-jupyter-plain",
+          "level": "95"
+        },
+        {
+          "name": "Docker",
+          "class": "devicon-docker-plain",
+          "level": "95"
+        },
+        {
+          "name": "Kaggle Datasets",
+          "class": "devicon-kaggle-original",
+          "level": "95"
+        },
+        {
+          "name": "Numpy",
+          "class": "devicon-numpy-original",
+          "level": "95"
         }
       ]
     }

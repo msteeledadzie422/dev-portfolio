@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import backgroundImage from "../../public/images/linkedin_background.jpeg";
 
 class Footer extends Component {
   render() {
@@ -16,10 +15,9 @@ class Footer extends Component {
     }
 
     return (
-      <footer>
-        <div className="imagebg" style={{ backgroundImage: `url(${backgroundImage})` }}>
+      <footer style={{ height: '55px' }}>
           <div className="container">
-            <div className="row">
+            <div className="row align-items-center">
               <div className="col social-links">{networks}</div>
               <div className="col">
                 <div 
@@ -56,7 +54,6 @@ class Footer extends Component {
                 </div>
               </div>
             </div>
-          </div>
           </div>
       </footer>
     );
