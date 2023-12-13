@@ -11,7 +11,34 @@
     },
     "projects": [
       {
-        "title": "Wikipedia Stadiums Data",
+        "title": "Yelp Customer Review Data Stream",
+        "startDate": "2023",
+        "description": "Real-time Yelp Customer Review Dataset data stream using Apache Spark and Apache Kafka, incorporating NLTK large language model for sentiment analysis",
+        "images": [
+          "images/portfolio/yelp_socket_stream/yelp_socket_spark_2.png",
+          "images/portfolio/yelp_socket_stream/yelp_socket_confluent_topic.png",
+          "images/portfolio/yelp_socket_stream/yelp_socket_confluent_connector.png",
+          "images/portfolio/yelp_socket_stream/yelp_socket_elasticsearch_index.png",
+          "images/portfolio/yelp_socket_stream/yelp_socket_elasticsearch_queries.png"
+        ],
+        "url": "https://github.com/msteeledadzie422/yelp_socket_stream",
+        "technologies": [
+          {
+            "class": "devicon-apache-plain",
+            "name": "Apache Spark"
+          },
+          {
+            "class": "devicon-apachekafka-original",
+            "name": "Microsoft Azure"
+          },
+          {
+            "class": "devicon-docker-plain",
+            "name": "Docker"
+          }
+        ]
+      },
+      {
+        "title": "Global Stadiums Data Visualization",
         "startDate": "2023",
         "description": "List of global stadiums pulled from Wikipedia. Data pipeline created using Apache Airflow and Azure Data Lakes",
         "images": [
